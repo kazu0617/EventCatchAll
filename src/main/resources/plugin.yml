@@ -1,0 +1,10 @@
+name: EventCatchAll
+main: jp.jias.spigot.EventCatchAll.EventCatchAll
+version: 1.8.0
+commands:
+   event:
+      description: イベントの表示・非表示の条件を変更します
+      usage: /event load | /event save | /event show | /event add PATTERN... | /event remove PATTERN...
+      permission: Protecter.basic
+      permission-message: You don't have <permission>
+      default: op
